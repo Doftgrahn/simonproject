@@ -21,7 +21,7 @@ TEST FÖR GIT SÅ ATT DET FUNKAR
 --*/
 body {
   margin: 0;
-  margin-top: 72px;
+  margin-top: 70px;
 }
 
 /*---------HEADER----------*/
@@ -68,7 +68,7 @@ li a:hover {
 .gridbox {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2px;
+  grid-gap: 0px;
   grid-auto-rows: minmax(138px, auto);
   text-align: center;
 }
@@ -92,7 +92,7 @@ li a:hover {
   left: 35%;
   transform: translate(-50%, -50%);
   transition: color 2.5s;
-  font-style: italic;
+  font-family: 'Poor Story', cursive;
   font-size: 27px;
 }
 
@@ -157,8 +157,10 @@ li a:hover {
 /*--------slut på grid ------*/
 #h1next {
   text-align: center;
-  border: 1px solid black;
-  margin: 3px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 3px 0;
+  font-family: 'Poor Story', cursive;
 }
 
 /*-------Början på flex------*/

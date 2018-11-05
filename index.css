@@ -17,7 +17,6 @@ Evening: #262228
 
 
 
-TEST FÖR GIT SÅ ATT DET FUNKAR
 --*/
 body {
   margin: 0;
@@ -39,7 +38,6 @@ body {
 
 .intro {
   position: relative;
-  text-align: center;
   display: inline-block;
   top: 0;
 }
@@ -50,6 +48,7 @@ ul {
   padding: 0;
   width: 200px;
   font-size: 17px;
+  float:left;
 }
 
 li {
@@ -78,8 +77,8 @@ li a:hover {
   height: 500px;
   text-align: center;
   background-color: #C5C1C0;
-  }
 
+}
 
 /*-------------Gridbox--------*/
 .gridbox {
